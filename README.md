@@ -1,0 +1,1 @@
+HNGx stage one solution

@@ -26,8 +26,8 @@ class GetInternDetail(APIView):
             "current-day": current_day,
             "utc_time": current_utc_time,
             "track": track,
-            "github_file_url": "github",
-            "github_repo_url": "github",
+            "github_file_url": "https://github.com/fikayo1/HNGx-internship/blob/main/HNGx/views.py",
+            "github_repo_url": "https://github.com/fikayo1/HNGx-internship",
             "status_code" : 200
         }
 
