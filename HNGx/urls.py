@@ -20,5 +20,5 @@ from .views import GetInternDetail
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/', GetInternDetail.as_view(), name="internDet")
+    path('api', GetInternDetail.as_view(), name="internDet")
 ]
