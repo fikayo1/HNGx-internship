@@ -23,7 +23,7 @@ class GetInternDetail(APIView):
 
         data = {
             "slack_name": slack_name,
-            "current-day": current_day,
+            "current_day": current_day,
             "utc_time": current_utc_time,
             "track": track,
             "github_file_url": "https://github.com/fikayo1/HNGx-internship/blob/main/HNGx/views.py",
